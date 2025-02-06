@@ -8,6 +8,11 @@
         const sizes = ["S", "M", "L", "XL", "XXL"];
         const genders = ["Men", "Women", "Unisex"];
 
+        // Function to get a random picsum ID between 0 and 251
+        function getRandomPicsumId() {
+            return Math.floor(Math.random() * 252); // Generates random integer from 0 to 251 (inclusive)
+        }
+
         const collectionsData = Array.from({ length: 100000 }, (_, i) => {
         // Data redundan: Menambahkan beberapa entri dengan informasi yang mirip
                 if (i % 10 === 0) {
@@ -18,7 +23,7 @@
                         rating: "Invalid Rating",
                         size: "M",
                         gender: "Men",
-                        image: `https://picsum.photos/280/350?random=${i + 1}`,
+                        image: `https://picsum.photos/id/${getRandomPicsumId()}/280/280`,
                         colors: 5 // Example color count
                     };
                 }
@@ -31,7 +36,7 @@
                         rating: null,
                         size: sizes[i % sizes.length],
                         gender: genders[i % genders.length],
-                        image: `https://picsum.photos/280/350?random=${i + 1}`,
+                        image: `https://picsum.photos/id/${getRandomPicsumId()}/280/280`,
                         colors: 8 // Example color count
                     };
                 }
@@ -44,7 +49,7 @@
                     rating: i % 50 === 0 ? "" : (Math.random() * 2 + 3).toFixed(1), // Kosongkan rating pada setiap kelipatan 50
                     size: sizes[i % sizes.length],
                     gender: genders[i % genders.length],
-                    image: `https://picsum.photos/280/350?random=${i + 1}`,
+                    image: `https://picsum.photos/id/${getRandomPicsumId()}/280/280`,
                     colors: 3 // Example color count
                 };
         });

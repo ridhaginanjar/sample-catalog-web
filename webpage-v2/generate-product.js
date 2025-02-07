@@ -5,7 +5,7 @@ const categories = ["Crewneck", "T-shirt", "Hoodie", "Pants", "Outerwear", "Jack
 const sizes = ["S", "M", "L", "XL", "XXL"];
 const genders = ["Men", "Women", "Unisex"];
 
-const collectionsData = Array.from({ length: 100000 }, (_, i) => {
+const collectionsData = Array.from({ length: 1000 }, (_, i) => {
     // Data redundan: Menambahkan beberapa entri dengan informasi yang mirip
     if (i % 10 === 0) {
         return {

@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fashion Studio</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+    <!-- Styles CSS -->
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav class="navbar">
+                <a class="navbar-brand" href="index.html">Fashion Studio</a>
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a href="#" class="nav-link">Shop</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Most wanted</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">New arrival</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Brands</a></li>
+                </ul>
+                <div class="navbar-right-items">
+                    <div class="search-box">
+                        <input type="text" class="search-input" placeholder="Search...">
+                        <button class="search-button">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                                <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 0 0 1 11 0z"/>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <div class="breadcrumbs">
+            <a href="index.html">Home</a> <span>/</span> Browse Products
+        </div>
+
+        <div class="product-header">
+            <h2 class="product-count">Fashion Products</h2>
+            <div class="sort-by">
+                <span class="sort-label">Sort by:</span>
+                <select class="sort-select">
+                    <option>Popularity</option>
+                    <option>Newest Items</option>
+                    <option>Price: Low to High</option>
+                    <option>Price: High to Low</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="collection-grid" id="collectionList">
+            
+                    <div class="collection-card">
+                        <div style="position: relative;">
+                            <img src="https://picsum.photos/280/350?random=95725" class="collection-image" alt="Crewneck 95725">
+                            
+                        </div>
+                        <div class="product-details">
+                            <h3 class="product-title">Crewneck 95725</h3>
+                            <div class="price-container"><span class="price">$91.60</span></div>
+                            <p style="font-size: 14px; color: #777;">Rating: ⭐ 4.2 / 5</p>
+                            <p style="font-size: 14px; color: #777;">3 Colors</p>
+                            <p style="font-size: 14px; color: #777;">Size: XXL</p>
+                            <p style="font-size: 14px; color: #777;">Gender: Men</p>
+                        </div>
+                    </div>
+                
+                    <div class="collection-card">
+                        <div style="position: relative;">
+                            <img src="https://picsum.photos/280/350?random=95726" class="collection-image" alt="T-shirt 95726">
+                            
+                        </div>
+                        <div class="product-details">
+                            <h3 class="product-title">T-shirt 95726</h3>
+                            <div class="price-container"><span class="price">$320.68</span></div>
+                            <p style="font-size: 14px; color: #777;">Rating: ⭐ 3.5 / 5</p>
+                            <p style="font-size: 14px; color: #777;">3 Colors</p>
+                            <p style="font-size: 14px; color: #777;">Size: S</p>
+                            <p style="font-size: 14px; color: #777;">Gender: Women</p>
+                        </div>
+                    </div>
+                
+                    <div class="collection-card">
+                        <div style="position: relative;">
+                            <img src="https://picsum.photos/280/350?random=95727" class="collection-image" alt="Hoodie 95727">
+                            
+                        </div>
+                        <div class="product-details">
+                            <h3 class="product-title">Hoodie 95727</h3>
+                            <div class="price-container"><span class="price">$357.74</span></div>
+                            <p style="font-size: 14px; color: #777;">Rating: ⭐ 3.7 / 5</p>
+                            <p style="font-size: 14px; color: #777;">3 Colors</p>
+                            <p style="font-size: 14px; color: #777;">Size: M</p>
+                            <p style="font-size: 14px; color: #777;">Gender: Unisex</p>
+                        </div>
+                    </div>
+                
+                    <div class="collection-card">
+                        <div style="position: relative;">
+                            <img src="https://picsum.photos/280/350?random=95728" class="collection-image" alt="Pants 95728">
+                            
+                        </div>
+                        <div class="product-details">
+                            <h3 class="product-title">Pants 95728</h3>
+                            <div class="price-container"><span class="price">$89.42</span></div>
+                            <p style="font-size: 14px; color: #777;">Rating: ⭐ 3.8 / 5</p>
+                            <p style="font-size: 14px; color: #777;">3 Colors</p>
+                            <p style="font-size: 14px; color: #777;">Size: L</p>
+                            <p style="font-size: 14px; color: #777;">Gender: Men</p>
+                        </div>
+                    </div>
+                
+                    <div class="collection-card">
+                        <div style="position: relative;">
+                            <img src="https://picsum.photos/280/350?random=95729" class="collection-image" alt="Outerwear 95729">
+                            
+                        </div>
+                        <div class="product-details">
+                            <h3 class="product-title">Outerwear 95729</h3>
+                            <div class="price-container"><span class="price">$328.97</span></div>
+                            <p style="font-size: 14px; color: #777;">Rating: ⭐ 4.8 / 5</p>
+                            <p style="font-size: 14px; color: #777;">3 Colors</p>
+                            <p style="font-size: 14px; color: #777;">Size: XL</p>
+                            <p style="font-size: 14px; color: #777;">Gender: Women</p>
+                        </div>
+                    </div>
+                
+                    <div class="collection-card">
+                        <div style="position: relative;">
+                            <img src="https://picsum.photos/280/350?random=95730" class="collection-image" alt="Jacket 95730">
+                            
+                        </div>
+                        <div class="product-details">
+                            <h3 class="product-title">Jacket 95730</h3>
+                            <div class="price-container"><span class="price">$462.94</span></div>
+                            <p style="font-size: 14px; color: #777;">Rating: ⭐ 4.4 / 5</p>
+                            <p style="font-size: 14px; color: #777;">3 Colors</p>
+                            <p style="font-size: 14px; color: #777;">Size: XXL</p>
+                            <p style="font-size: 14px; color: #777;">Gender: Unisex</p>
+                        </div>
+                    </div>
+                
+                    <div class="collection-card">
+                        <div style="position: relative;">
+                            <img src="https://picsum.photos/280/350?random=95731" class="collection-image" alt="Unknown Product">
+                            
+                        </div>
+                        <div class="product-details">
+                            <h3 class="product-title">Unknown Product</h3>
+                            <div class="price-container"><span class="price">$100.00</span></div>
+                            <p style="font-size: 14px; color: #777;">Rating: ⭐ Invalid Rating / 5</p>
+                            <p style="font-size: 14px; color: #777;">5 Colors</p>
+                            <p style="font-size: 14px; color: #777;">Size: M</p>
+                            <p style="font-size: 14px; color: #777;">Gender: Men</p>
+                        </div>
+                    </div>
+                
+                    <div class="collection-card">
+                        <div style="position: relative;">
+                            <img src="https://picsum.photos/280/350?random=95732" class="collection-image" alt="T-shirt 95732">
+                            
+                        </div>
+                        <div class="product-details">
+                            <h3 class="product-title">T-shirt 95732</h3>
+                            <div class="price-container"><span class="price">$320.67</span></div>
+                            <p style="font-size: 14px; color: #777;">Rating: ⭐ 4.5 / 5</p>
+                            <p style="font-size: 14px; color: #777;">3 Colors</p>
+                            <p style="font-size: 14px; color: #777;">Size: M</p>
+                            <p style="font-size: 14px; color: #777;">Gender: Women</p>
+                        </div>
+                    </div>
+                
+                    <div class="collection-card">
+                        <div style="position: relative;">
+                            <img src="https://picsum.photos/280/350?random=95733" class="collection-image" alt="Hoodie 95733">
+                            
+                        </div>
+                        <div class="product-details">
+                            <h3 class="product-title">Hoodie 95733</h3>
+                            <div class="price-container"><span class="price">$57.26</span></div>
+                            <p style="font-size: 14px; color: #777;">Rating: ⭐ 3.5 / 5</p>
+                            <p style="font-size: 14px; color: #777;">3 Colors</p>
+                            <p style="font-size: 14px; color: #777;">Size: L</p>
+                            <p style="font-size: 14px; color: #777;">Gender: Unisex</p>
+                        </div>
+                    </div>
+                
+                    <div class="collection-card">
+                        <div style="position: relative;">
+                            <img src="https://picsum.photos/280/350?random=95734" class="collection-image" alt="Pants 95734">
+                            
+                        </div>
+                        <div class="product-details">
+                            <h3 class="product-title">Pants 95734</h3>
+                            <div class="price-container"><span class="price">$364.71</span></div>
+                            <p style="font-size: 14px; color: #777;">Rating: ⭐ 3.5 / 5</p>
+                            <p style="font-size: 14px; color: #777;">3 Colors</p>
+                            <p style="font-size: 14px; color: #777;">Size: XL</p>
+                            <p style="font-size: 14px; color: #777;">Gender: Men</p>
+                        </div>
+                    </div>
+                
+                    <div class="collection-card">
+                        <div style="position: relative;">
+                            <img src="https://picsum.photos/280/350?random=95735" class="collection-image" alt="Outerwear 95735">
+                            
+                        </div>
+                        <div class="product-details">
+                            <h3 class="product-title">Outerwear 95735</h3>
+                            <div class="price-container"><span class="price">$188.15</span></div>
+                            <p style="font-size: 14px; color: #777;">Rating: ⭐ 3.4 / 5</p>
+                            <p style="font-size: 14px; color: #777;">3 Colors</p>
+                            <p style="font-size: 14px; color: #777;">Size: XXL</p>
+                            <p style="font-size: 14px; color: #777;">Gender: Women</p>
+                        </div>
+                    </div>
+                
+                    <div class="collection-card">
+                        <div style="position: relative;">
+                            <img src="https://picsum.photos/280/350?random=95736" class="collection-image" alt="Jacket 95736">
+                            
+                        </div>
+                        <div class="product-details">
+                            <h3 class="product-title">Jacket 95736</h3>
+                            <div class="price-container"><span class="price">$310.24</span></div>
+                            <p style="font-size: 14px; color: #777;">Rating: ⭐ 3.9 / 5</p>
+                            <p style="font-size: 14px; color: #777;">3 Colors</p>
+                            <p style="font-size: 14px; color: #777;">Size: S</p>
+                            <p style="font-size: 14px; color: #777;">Gender: Unisex</p>
+                        </div>
+                    </div>
+                
+        </div>
+    </div>
+
+    <div class="container">
+        <nav aria-label="Product pagination">
+            <ul class="pager pagination">
+                <li class="page-item previous disabled" id="prevPageContainer">
+                    <a class="page-link" id="prevPage" href="#" tabindex="-1" aria-disabled="true">Previous</a>
+                </li>
+                <li class="page-item current"><span class="page-link">7978 of 8334</span></li>
+                <li class="page-item next" id="nextPageContainer">
+                    <a class="page-link" id="nextPage" href="#">Next</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+
+    <footer>
+        <p>© 2025 Copyright. All right reserved</p>
+    </footer>
+
+    <!-- SCRIPT SECTION REMOVED - No Javascript needed for static pages -->
+</body>
+</html>
